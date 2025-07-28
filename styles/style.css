@@ -15,6 +15,11 @@
     list-style: circle;
 }
 
+.header__links-list-item {
+    padding-left: 5px;
+    word-spacing: 12px;
+}
+
 .header__links-list-item_no-bullit {
     list-style-type: none;
 }
@@ -121,10 +126,6 @@
     flex-direction: column;
 }
 
-.lots__look-more-link {
-    font-size: 20px;
-}
-
 .card {
     display: flex;
     flex-direction: column;
@@ -151,7 +152,7 @@
     background-position: center;
 }
 
-/* Каждому заголовку карточки задан индивидуальный padding в стилях */
+/* Каждому заголовку карточки задан индивидуальный padding в index.html */
 
 .card__title {
     color: white;
@@ -167,6 +168,7 @@
 
 .lots__look-more-link {
     padding-left: 40px;
+    font-size: 20px;
 }
 
 .footer__social-icon {
