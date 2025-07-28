@@ -27,13 +27,10 @@
 .header__address {
     justify-self: end;
     font-size: 18px;
+    margin-right: 51px;
     padding-left: 184px;
     line-height: 24.3px;
     font-style: normal;
-}
-
-.header__address {
-    margin-right: 51px;
 }
 
 .cover {
@@ -102,7 +99,6 @@
 }
 
 .lots__heading {
-    font-weight: Bold;
     font-size: 40px;
     margin-bottom: 27px;
     padding-left: 40px;
@@ -110,7 +106,8 @@
 }
 
 .lots__card-list {
-    margin-top: 27px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
@@ -119,9 +116,20 @@
     text-transform: uppercase;
 }
 
+.lots__card-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.lots__look-more-link {
+    font-size: 20px;
+}
+
 .card {
-    padding: 48px 40px 0 40px;
-    font-weight: Bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 40px 0 40px;
     height: 596px;
 }
 
@@ -143,10 +151,22 @@
     background-position: center;
 }
 
+/* Каждому заголовку карточки задан индивидуальный padding в стилях */
+
 .card__title {
     color: white;
-    text-decoration: underline;
-    text-decoration-color: white;
+    font-size: 22px;
+}
+
+.card__text {
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: lowercase;
+    color: white;
+}
+
+.lots__look-more-link {
+    padding-left: 40px;
 }
 
 .footer__social-icon {
