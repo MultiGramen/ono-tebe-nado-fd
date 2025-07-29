@@ -126,6 +126,10 @@
     flex-direction: column;
 }
 
+.card-link {
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -157,6 +161,7 @@
 .card__title {
     color: white;
     font-size: 22px;
+    text-decoration: underline;
 }
 
 .card__text {
