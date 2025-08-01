@@ -10,14 +10,15 @@
 
 .header__links-list {
     display: flex;
-    padding: 0px 0px 5px 50px;
+    padding: 0px 0px 5px 45px;
     gap: 32px;
     list-style: circle;
+    font-size: 1.1rem;
+    text-underline-offset: 5px;
 }
 
 .header__links-list-item {
     padding-left: 5px;
-    word-spacing: 12px;
 }
 
 .header__links-list-item_no-bullit {
@@ -40,12 +41,14 @@
     padding-left: 184px;
     line-height: 24.3px;
     font-style: normal;
+    text-underline-offset: 5px;
 }
 
 .cover {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: 125% auto;
+    background-position: center;
 }
 
 .cover__title {
@@ -85,9 +88,9 @@
     color: white;
     font-size: 22px;
     padding-left: 50px;
-    word-spacing: 20px;
+    word-spacing: 1.17rem;
     text-transform: uppercase;
-    margin-right: 91px;
+    margin-right: 100px;
     margin-top: 13px;
 }
 
@@ -121,7 +124,6 @@
     gap: 25px;
     list-style-type: none;
     font-size: 22px;
-    text-transform: uppercase;
 }
 
 .lots__card-list-item {
@@ -143,8 +145,6 @@
 
 .card_type_film {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/card-lot-01.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .overlay {
@@ -153,12 +153,13 @@
 
 .card_type_book {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/card-lot-02.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/card-lot-03.jpg);
+}
+
+.card-property {
     background-size: cover;
     background-position: center;
 }
@@ -168,12 +169,12 @@
     font-size: 22px;
     text-decoration: underline;
     padding-top: 45px;
+    text-transform: uppercase;
 }
 
 .card__text {
     margin-bottom: 50px;
     font-size: 20px;
-    text-transform: lowercase;
     color: white;
 }
 
@@ -228,11 +229,11 @@
 }
 
 .footer {
-    height: 180px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 180px 50px 0px 50px;
     margin-top: 180px;
+    font-size: 18px;
 }
 
 .footer__address {
